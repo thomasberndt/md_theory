@@ -1,0 +1,817 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Theory of thermoremanence in multidomain grains
+\end_layout
+
+\begin_layout Author
+Thomas A.
+ Berndt
+\end_layout
+
+\begin_layout Standard
+The energy of a two-domain grain with the domains separated by a domain-wall
+ (DW) at position 
+\begin_inset Formula $x$
+\end_inset
+
+ is given by the sum of the magnetostatic energy, the demagnetizing energy
+ and the wall pinning field energy
+\begin_inset Formula 
+\[
+E\left(x\right)=E_{M}+E_{D}+E_{P}\,,
+\]
+
+\end_inset
+
+ where the magnetostatic energy is given by 
+\begin_inset Formula 
+\[
+E_{M}\left(x\right)=-2\mu_{0}AM_{s}Hx\,,
+\]
+
+\end_inset
+
+ where 
+\begin_inset Formula $A$
+\end_inset
+
+ is the surface area of the wall, 
+\begin_inset Formula $\mu_{0}=4\pi\times10^{-7}\,\text{Tm/A}$
+\end_inset
+
+ is the vacuum permeability, 
+\begin_inset Formula $M_{s}$
+\end_inset
+
+ is the spontaneous magnetization (480 kA/m), and 
+\begin_inset Formula $H$
+\end_inset
+
+ is the external applied field.
+ The demagnetizing energy is given by 
+\begin_inset Formula 
+\[
+E_{D}\left(x\right)=2\mu_{0}NA^{2}M_{s}^{2}x^{2}/V\,,
+\]
+
+\end_inset
+
+ where 
+\begin_inset Formula $N$
+\end_inset
+
+ is the demagnetizing factor and 
+\begin_inset Formula $V$
+\end_inset
+
+ is the grain volume.
+ The wall pinning energy can be modelled by any cyclic function 
+\begin_inset Formula $P$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+E_{P}\left(x\right)=-\mu_{0}H_{K}M_{s}V_{Bark}P\left(\frac{x}{\Delta x}\right)\,,
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\Delta x$
+\end_inset
+
+ is the distance between two neighbouring wall pinning sites, i.e.
+ minima of 
+\begin_inset Formula $P$
+\end_inset
+
+, 
+\begin_inset Formula $V_{Bark}=A\Delta x$
+\end_inset
+
+ is the volume swept out by a domain-wall jump of distance 
+\begin_inset Formula $\Delta x$
+\end_inset
+
+, i.e.
+ a Barkhausen jump, and 
+\begin_inset Formula $H_{K}$
+\end_inset
+
+ is a constant depending on the amplitude of the pinning field.
+ The net magnetization of the grain is given by 
+\begin_inset Formula 
+\[
+M=\frac{2M_{s}Ax}{V}\,,
+\]
+
+\end_inset
+
+ the energy can therefore be written 
+\begin_inset Formula 
+\[
+E\left(x\right)=\mu_{0}V\left(\frac{1}{2}NM^{2}-HM\right)-\mu_{0}H_{K}M_{s}V_{Bark}P\left(\frac{x}{\Delta x}\right)\,.
+\]
+
+\end_inset
+
+ The energy barrier between two neighbouring wall pinning sites is 
+\begin_inset Formula 
+\[
+\Delta E_{\pm}\equiv\Delta E\left(x\rightarrow x\pm\frac{1}{2}\Delta x\right)=E\left(x\pm\frac{1}{2}\Delta x\right)-E\left(x\right)
+\]
+
+\end_inset
+
+Therefore, assuming 
+\begin_inset Formula $\Delta x^{2}$
+\end_inset
+
+ is small, 
+\begin_inset Formula 
+\[
+\Delta E_{\pm}\equiv\mu_{0}V_{Bark}M_{s}\left(\pm\left(NM-H\right)+H_{K}\right)
+\]
+
+\end_inset
+
+ The rate coefficients for a domain wall jumping over a barrier (Barkhausen
+ jump) are given by an Arrhenius equation 
+\begin_inset Formula 
+\[
+k=\frac{1}{\tau_{0}}\exp\left\{ -\frac{\Delta E}{k_{B}T}\right\} \,,
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\tau_{0}$
+\end_inset
+
+ is a constant called the attempt time.
+ Hence
+\begin_inset Formula 
+\[
+k_{\pm}=k\left(x\rightarrow x\pm\Delta x\right)=\frac{1}{\tau_{0}}\exp\left\{ -\frac{\Delta E_{\pm}}{k_{B}T}\right\} 
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+k_{\pm}=\frac{1}{\tau_{0}}\exp\left\{ -\frac{\mu_{0}V_{Bark}M_{s}\left(\pm\left(NM-H\right)+H_{K}\right)}{k_{B}T}\right\} 
+\]
+
+\end_inset
+
+If the probability of finding a domain wall at pinning site 
+\begin_inset Formula $x$
+\end_inset
+
+ is given by 
+\begin_inset Formula $p\left(x\right)$
+\end_inset
+
+ then the rate of change of this probability is given by 
+\begin_inset Formula 
+\[
+\frac{dp}{dt}=-p\left(x\right)\left[k_{+}\left(x\right)+k_{-}\left(x\right)\right]+p\left(x-\Delta x\right)k_{+}\left(x-\Delta x\right)+p\left(x+\Delta x\right)k_{-}\left(x+\Delta x\right)
+\]
+
+\end_inset
+
+ where 
+\begin_inset Formula 
+\[
+p\left(x\pm\Delta x\right)\approx p\left(x\right)\pm\frac{dp}{dx}\Delta x
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+k_{\pm}\left(x\pm\Delta x\right)\approx k_{\pm}\left(x\right)\pm\frac{dk_{\pm}}{dx}\Delta x
+\]
+
+\end_inset
+
+ Hence 
+\begin_inset Formula 
+\[
+\frac{dp}{dt}=-p\frac{d\left(k_{+}-k_{-}\right)}{dx}\Delta x-\frac{dp}{dx}\left(k_{+}-k_{-}\right)\Delta x
+\]
+
+\end_inset
+
+The derivatives of 
+\begin_inset Formula $k_{\pm}$
+\end_inset
+
+are given by 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dk_{\pm}}{dx}=\mp\frac{2\mu_{0}NM_{s}^{2}AV_{Bark}}{k_{B}TV}k_{\pm}
+\]
+
+\end_inset
+
+ Hence 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p=\frac{k_{B}TV}{2\mu_{0}NM_{s}^{2}V_{Bark}}\left(\frac{1}{A}\frac{dp}{dx}\left(\frac{k_{+}-k_{-}}{k_{+}+k_{-}}\right)+\frac{1}{V_{Bark}}\frac{dp}{dt}\left(\frac{1}{k_{+}+k_{-}}\right)\right)
+\]
+
+\end_inset
+
+Expressing the rate coefficient in terms of hyperbolic functions
+\begin_inset Formula 
+\[
+\frac{k_{+}-k_{-}}{k_{+}+k_{-}}=\tanh\left\{ -\frac{\mu_{0}V_{Bark}M_{s}\left(NM-H\right)}{k_{B}T}\right\} 
+\]
+
+\end_inset
+
+which is for small 
+\begin_inset Formula $V_{Bark}$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{k_{+}-k_{-}}{k_{+}+k_{-}}\approx-\frac{\mu_{0}V_{Bark}M_{s}\left(NM-H\right)}{k_{B}T}
+\]
+
+\end_inset
+
+Similarly, 
+\begin_inset Formula 
+\[
+\frac{1}{k_{+}+k_{-}}=\frac{\tau_{0}}{2}\exp\left\{ \frac{\mu_{0}V_{Bark}M_{s}H_{K}}{k_{B}T}\right\} \text{sech}\left\{ -\frac{\mu_{0}V_{Bark}M_{s}\left(NM-H\right)}{k_{B}T}\right\} 
+\]
+
+\end_inset
+
+ which is for small 
+\begin_inset Formula $V_{Bark}$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{1}{k_{+}+k_{-}}\approx\frac{\tau_{0}}{2}\exp\left\{ \frac{\mu_{0}V_{Bark}M_{s}H_{K}}{k_{B}T}\right\} 
+\]
+
+\end_inset
+
+Therefore 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p=-\frac{V\left(NM-H\right)}{2NM_{s}A}\frac{dp}{dx}+\frac{1}{\tau}\frac{dp}{dt}
+\]
+
+\end_inset
+
+ where 
+\begin_inset Formula 
+\[
+\tau=\frac{\tau_{0}k_{B}TV}{4\mu_{0}NM_{s}^{2}V_{Bark}^{2}}\exp\left\{ \frac{\mu_{0}V_{Bark}M_{s}H_{K}}{k_{B}T}\right\} 
+\]
+
+\end_inset
+
+ Since 
+\begin_inset Formula $p$
+\end_inset
+
+ is a probability density function 
+\begin_inset Formula 
+\[
+1=\int p\,dM
+\]
+
+\end_inset
+
+The total magnetization of the grain is given by 
+\begin_inset Formula 
+\[
+M_{tot}=\int pM\,dM
+\]
+
+\end_inset
+
+The variance of the probability distribution is 
+\begin_inset Formula 
+\[
+\sigma^{2}=\int pM^{2}\,dM
+\]
+
+\end_inset
+
+Hence 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+M_{tot}=\frac{H}{N}-\frac{\tau_{0}}{\tau}\frac{dM_{tot}}{dt}
+\]
+
+\end_inset
+
+The solution is
+\begin_inset Formula 
+\[
+M=\left(M_{0}-\frac{H}{N}\right)\exp\left\{ -\frac{t}{\tau}\right\} +\frac{H}{N}
+\]
+
+\end_inset
+
+Hence for MD grains, 
+\color brown
+
+\begin_inset Formula 
+\[
+\tau=\frac{\tau_{0}k_{B}TV}{4\mu_{0}NM_{s}^{2}V_{Bark}^{2}}\exp\left\{ \frac{\mu_{0}V_{Bark}M_{s}H_{K}}{k_{B}T}\right\} 
+\]
+
+\end_inset
+
+
+\color inherit
+ and 
+\begin_inset Formula 
+\[
+M_{eq}=\frac{H}{N}
+\]
+
+\end_inset
+
+Compared to SD grains 
+\color brown
+
+\begin_inset Formula 
+\[
+\tau=\tau_{0}\exp\left\{ \frac{\mu_{0}VM_{s}H_{K}}{k_{B}T}\left(1-\frac{\left|H\right|}{H_{K}}\right)^{2}\right\} 
+\]
+
+\end_inset
+
+
+\color inherit
+ for small fields and 
+\begin_inset Formula 
+\[
+\tau=\frac{\tau_{0}}{2}\exp\left\{ \frac{\mu_{0}VM_{s}H_{K}}{k_{B}T}\right\} 
+\]
+
+\end_inset
+
+ for zero field and 
+\begin_inset Formula 
+\[
+M_{eq}=\tanh\left\{ \frac{VHM_{s}\left(T\right)}{k_{B}T}\right\} \approx\frac{VHM_{s}\left(T\right)}{k_{B}T}
+\]
+
+\end_inset
+
+ And compared to traditional Barkhausen jump theory 
+\color brown
+
+\begin_inset Formula 
+\[
+\tau=\tau_{0}\exp\left\{ \frac{c\mu_{0}V_{Bark}M_{s}H_{K}}{k_{B}T}\right\} 
+\]
+
+\end_inset
+
+
+\color inherit
+ and 
+\begin_inset Formula 
+\[
+M_{eq}=\frac{H}{N}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Neel 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "neel1944effet"
+
+\end_inset
+
+ gives 
+\begin_inset Formula $H_{K}$
+\end_inset
+
+ of a Barkhausen jump as 
+\begin_inset Formula 
+\[
+H_{K}=\frac{5}{4}\sqrt{\frac{\pi^{3}}{8}}\frac{\gamma_{W}}{\mu_{0}M_{s}r}
+\]
+
+\end_inset
+
+ where 
+\begin_inset Formula $r$
+\end_inset
+
+ is the radius of the inclusion, and 
+\begin_inset Formula $\gamma_{W}$
+\end_inset
+
+ is the energy of a domain wall per unit area and is given by 
+\begin_inset Formula 
+\[
+\gamma_{W}=2\pi\sqrt{AK}
+\]
+
+\end_inset
+
+ which, for magnetite is around 
+\begin_inset Formula $\gamma_{W}=0.93\cdot10^{-3}\,\text{J}/\text{m}^{2}$
+\end_inset
+
+.
+ Hence 
+\begin_inset Formula $H_{K}$
+\end_inset
+
+ is roughly of the order of 
+\begin_inset Formula 
+\[
+H_{K}\sim\frac{\gamma_{W}}{\mu_{0}M_{s}V_{Bark}^{1/3}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An SD grain is determined by 
+\begin_inset Formula $\left(V,H_{K0}\right)$
+\end_inset
+
+, or equivalently by 
+\begin_inset Formula $\left(V,N\right)$
+\end_inset
+
+.
+ A traditional Barkhausen MD grain is determined by 
+\begin_inset Formula $\left(V_{Bark},H_{K}\right)$
+\end_inset
+
+.
+ A real MD grain is determined by 
+\begin_inset Formula $\left(V_{Bark},V,H_{K0},N\right)$
+\end_inset
+
+.
+ The shape factor 
+\begin_inset Formula $N$
+\end_inset
+
+ depends on the number 
+\begin_inset Formula $n$
+\end_inset
+
+ of domain walls.
+ For a large number of walls it approaches the value of a SD cube, i.e.
+ 
+\begin_inset Formula $N=1/3$
+\end_inset
+
+, for a two-domain grain it is 0.127.
+\end_layout
+
+\begin_layout Standard
+Note that there are two types of solutions
+\begin_inset Formula 
+\[
+\tau=\frac{\tau_{0}k_{B}Vf\left(T\right)}{4\mu_{0}NM_{s0}^{2}V_{Bark}^{2}}\exp\left\{ \frac{\mu_{0}V_{Bark}M_{s0}H_{K0}}{k_{B}f\left(T\right)}\right\} 
+\]
+
+\end_inset
+
+ where 
+\begin_inset Formula 
+\[
+f\left(T\right)=\frac{TM_{s0}^{2}}{M_{s}^{2}}
+\]
+
+\end_inset
+
+ is the temperature-dependence of blocking.
+\begin_inset Formula 
+\[
+\frac{d\tau}{dT}=\frac{\tau_{0}k_{B}V}{4\mu_{0}NM_{s}V_{Bark}^{2}}\frac{df}{dT}\exp\left\{ \frac{\mu_{0}V_{Bark}M_{s0}H_{K0}}{k_{B}f}\right\} -\frac{\tau_{0}k_{B}Vf}{4\mu_{0}NM_{s}V_{Bark}^{2}}\frac{df}{dT}\frac{\mu_{0}V_{Bark}M_{s0}H_{K0}}{k_{B}f^{2}}\exp\left\{ \frac{\mu_{0}V_{Bark}M_{s0}H_{K0}}{k_{B}f}\right\} 
+\]
+
+\end_inset
+
+Hence blocking can occur either on heating or on cooling, the limiting value
+ (i.e.
+ grain is permanently blocked or permanently superparamagnetic independent
+ of temperature) being
+\begin_inset Formula 
+\[
+\mu_{0}V_{Bark}M_{s0}H_{K0}=k_{B}f
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mu_{0}V_{Bark}M_{s0}H_{K0}=k_{B}\frac{TM_{s0}^{2}}{M_{s}^{2}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mu_{0}V_{Bark}H_{K}M_{s}=k_{B}T
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+for 
+\begin_inset Formula $M_{s}=M_{s0}\sqrt{1-T/T_{c}}$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mu_{0}V_{Bark}H_{K0}M_{s0}\left(1-T/T_{c}\right)=k_{B}T
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mu_{0}V_{Bark}H_{K0}M_{s0}\left(1/T-1/T_{c}\right)=k_{B}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+1/T=k_{B}/\mu_{0}V_{Bark}H_{K0}M_{s0}+1/T_{c}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The critical time is 
+\begin_inset Formula 
+\[
+\tau=\frac{\tau_{0}V\mu_{0}V_{Bark}M_{s0}H_{K0}}{4\mu_{0}NM_{s0}^{2}V_{Bark}^{2}}\exp\left\{ \frac{\mu_{0}V_{Bark}M_{s0}H_{K0}}{\mu_{0}V_{Bark}M_{s0}H_{K0}}\right\} 
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\tau=\frac{\tau_{0}VH_{K0}\exp\left(1\right)}{4NM_{s0}V_{Bark}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Solving the relaxation time for 
+\begin_inset Formula $V_{Bark}$
+\end_inset
+
+ one gets 
+\begin_inset Formula 
+\[
+\tau_{min}=\frac{\tau_{0}k_{B}TV}{4\mu_{0}NM_{s}^{2}V_{Bark}^{2}}\exp\left\{ \frac{\mu_{0}V_{Bark}M_{s}H_{K}}{k_{B}T}\right\} 
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\tau_{min}=\frac{\tau_{0}k_{B}TV}{4\mu_{0}NM_{s}^{2}V_{Bark}^{2}}\exp\left\{ \frac{\mu_{0}V_{Bark}M_{s}H_{K}}{k_{B}T}\right\} 
+\]
+
+\end_inset
+
+
+\color brown
+
+\begin_inset Formula 
+\[
+\tau_{min}=\frac{\tau_{0}H_{K}V}{4NM_{s}V_{Bark}}=\frac{\tau_{0}H_{K0}V}{4NM_{s0}V_{Bark}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If I want 
+\begin_inset Formula $\tau_{min}=\tau_{0}$
+\end_inset
+
+ then 
+\color brown
+
+\begin_inset Formula 
+\[
+V_{Bark}=\frac{H_{K0}V}{4NM_{s0}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V_{Bark}=-\frac{2k_{B}T}{\mu_{0}M_{s}H_{K}}W\left(\pm\sqrt{\frac{\tau_{0}V\mu_{0}H_{K}^{2}}{16Nk_{B}T}}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Field unblocking occurs when 
+\begin_inset Formula 
+\[
+\Delta E_{\pm}=\mu_{0}V_{Bark}M_{s}\left(\pm\left(NM-H\right)+H_{K}\right)\leq0
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\pm\left(NM-H\right)\leq-H_{K}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
++\left(NM-H\right) & \leq-H_{K}\\
+-\left(NM-H\right) & \leq-H_{K}
+\end{align*}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+NM-H & \leq-H_{K}\\
+-NM+H & \leq-H_{K}
+\end{align*}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+H & \geq NM+H_{K}\\
+H & \leq NM-H_{K}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For field unblocking, grains relax into equilibrium state 
+\begin_inset Formula 
+\[
+M_{eq,field}=\frac{H\mp H_{K}}{N}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "C:/Users/Think/Dropbox/Documents/Studies/Bibliography/library"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

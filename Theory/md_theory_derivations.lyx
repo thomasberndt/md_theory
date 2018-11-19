@@ -1,0 +1,1377 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Theory of thermoremanence in multidomain grains – Derivations
+\end_layout
+
+\begin_layout Section
+Energy function
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+E\left(x\right)=E_{M}+E_{D}+E_{W}\,,
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+E\left(x\right)=-2\mu_{0}AM_{s}Hx+2\mu_{0}NA^{2}M_{s}^{2}x^{2}/V-\mu_{0}H_{K}M_{s}V_{Bark}P\left(\frac{x}{\Delta x}\right)\,,
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+M=\frac{2M_{s}Ax}{V}\,,
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+V_{Bark}=A\Delta x
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+E\left(x\right)=-\mu_{0}HMV+\frac{1}{2}\mu_{0}NM^{2}V-\mu_{0}H_{K}M_{s}V_{Bark}P\left(\frac{x}{\Delta x}\right)\,,
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Energy barriers
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta E_{+}\equiv\Delta E\left(x\rightarrow x+\frac{1}{2}\Delta x\right)=E\left(x+\frac{1}{2}\Delta x\right)-E\left(x\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Delta E_{-}\equiv\Delta E\left(x\rightarrow x-\frac{1}{2}\Delta x\right)=E\left(x-\frac{1}{2}\Delta x\right)-E\left(x\right)
+\]
+
+\end_inset
+
+hence
+\begin_inset Formula 
+\[
+\Delta E_{\pm}\equiv\Delta E\left(x\rightarrow x\pm\frac{1}{2}\Delta x\right)=E\left(x\pm\frac{1}{2}\Delta x\right)-E\left(x\right)
+\]
+
+\end_inset
+
+Therefore
+\begin_inset Formula 
+\[
+\Delta E_{\pm}\equiv-2\mu_{0}AM_{s}H\left(x\pm\frac{1}{2}\Delta x\right)+2\mu_{0}NA^{2}M_{s}^{2}\left(x\pm\frac{1}{2}\Delta x\right)^{2}/V-\mu_{0}H_{K}M_{s}V_{Bark}P\left(\frac{x\pm\frac{1}{2}\Delta x}{\Delta x}\right)+2\mu_{0}AM_{s}Hx-2\mu_{0}NA^{2}M_{s}^{2}x^{2}/V+\mu_{0}H_{K}M_{s}V_{Bark}P\left(\frac{x}{\Delta x}\right)
+\]
+
+\end_inset
+
+Assume 
+\begin_inset Formula $P=1$
+\end_inset
+
+ at pinning sites and zero elsewhere 
+\begin_inset Formula 
+\[
+\Delta E_{\pm}\equiv-2\mu_{0}AM_{s}H\left(x\pm\frac{1}{2}\Delta x\right)+2\mu_{0}NA^{2}M_{s}^{2}\left(x\pm\frac{1}{2}\Delta x\right)^{2}/V+2\mu_{0}AM_{s}Hx-2\mu_{0}NA^{2}M_{s}^{2}x^{2}/V+\mu_{0}H_{K}M_{s}V_{Bark}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Delta E_{\pm}\equiv\mp\mu_{0}AM_{s}H\Delta x+2\mu_{0}NA^{2}M_{s}^{2}\left(x\pm\frac{1}{2}\Delta x\right)^{2}/V-2\mu_{0}NA^{2}M_{s}^{2}x^{2}/V+\mu_{0}H_{K}M_{s}V_{Bark}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Delta E_{\pm}\equiv\mp\mu_{0}AM_{s}H\Delta x+2\mu_{0}NA^{2}M_{s}^{2}\left(\pm x\Delta x{\color{brown}+\frac{1}{4}\Delta x^{2}}\right)/V+\mu_{0}H_{K}M_{s}V_{Bark}
+\]
+
+\end_inset
+
+ assume that 
+\begin_inset Formula $\Delta x$
+\end_inset
+
+ is small
+\begin_inset Formula 
+\[
+\Delta E_{\pm}\equiv\mp\mu_{0}AM_{s}H\Delta x\pm2\mu_{0}NA^{2}M_{s}^{2}x\Delta x/V+\mu_{0}H_{K}M_{s}V_{Bark}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Delta E_{\pm}\equiv\mp\mu_{0}AM_{s}H\Delta x\pm\mu_{0}NAM_{s}M\Delta x+\mu_{0}H_{K}M_{s}V_{Bark}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Delta E_{\pm}\equiv\mp\mu_{0}V_{Bark}M_{s}H\pm\mu_{0}NV_{Bark}M_{s}M+\mu_{0}H_{K}M_{s}V_{Bark}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Delta E_{\pm}\equiv\mu_{0}V_{Bark}M_{s}\left(\mp H\pm NM+H_{K}\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Delta E_{\pm}\equiv\mu_{0}V_{Bark}M_{s}\left(\pm\left(NM-H\right)+H_{K}\right)
+\]
+
+\end_inset
+
+assume that 
+\begin_inset Formula $\Delta x$
+\end_inset
+
+ is not small
+\begin_inset Formula 
+\[
+\Delta E_{\pm}\equiv\mp\mu_{0}M_{s}HV_{Bark}\pm\mu_{0}NV_{Bark}M_{s}M{\color{brown}+\frac{1}{2}\mu_{0}NA^{2}M_{s}^{2}\Delta x^{2}/V}+\mu_{0}H_{K}M_{s}V_{Bark}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Delta E_{\pm}\equiv\mp\mu_{0}M_{s}HV_{Bark}\pm\mu_{0}NV_{Bark}M_{s}M{\color{brown}+\frac{1}{2}\mu_{0}NV_{Bark}^{2}M_{s}^{2}/V}+\mu_{0}H_{K}M_{s}V_{Bark}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Delta E_{\pm}\equiv\mu_{0}V_{Bark}M_{s}\left(\pm\left(NM-H\right)+H_{K}{\color{brown}+NV_{Bark}M_{s}/2V}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+ODE of probability distribution
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dp}{dt}=-p\left(M\right)\left[k_{+}\left(M\right)+k_{-}\left(M\right)\right]+\left(p\left(M\right)-\frac{dp}{dM}\Delta M\right)\left(k_{+}\left(M\right)-\frac{dk_{+}}{dM}\Delta M\right)+\left(p\left(M\right)+\frac{dp}{dM}\Delta M\right)\left(k_{-}\left(M\right)+\frac{dk_{-}}{dM}\Delta M\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{dp}{dt}=-p\left[k_{+}+k_{-}\right]+\left(p-\frac{dp}{dM}\Delta M\right)\left(k_{+}-\frac{dk_{+}}{dM}\Delta M\right)+\left(p+\frac{dp}{dM}\Delta M\right)\left(k_{-}+\frac{dk_{-}}{dM}\Delta M\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{dp}{dt}=-pk_{+}-pk_{-}+pk_{+}-p\frac{dk_{+}}{dM}\Delta M-\frac{dp}{dM}k_{+}\Delta M+{\color{green}\frac{dp}{dM}\frac{dk_{+}}{dM}\left(\Delta M\right)^{2}}+pk_{-}+p\frac{dk_{-}}{dM}\Delta M+\frac{dp}{dM}k_{-}\Delta M{\color{green}+\frac{dp}{dM}\frac{dk_{-}}{dM}\left(\Delta M\right)^{2}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{dp}{dt}=-p\frac{dk_{+}}{dM}\Delta M-\frac{dp}{dM}k_{+}\Delta M+{\color{green}\frac{dp}{dM}\frac{dk_{+}}{dM}\left(\Delta M\right)^{2}}+p\frac{dk_{-}}{dM}\Delta M+\frac{dp}{dM}k_{-}\Delta M+{\color{green}\frac{dp}{dM}\frac{dk_{-}}{dM}\left(\Delta M\right)^{2}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{dp}{dt}=-p\frac{dk_{+}}{dM}\Delta M-\frac{dp}{dM}k_{+}\Delta M+p\frac{dk_{-}}{dM}\Delta M+\frac{dp}{dM}k_{-}\Delta M+{\color{green}\frac{d\left(k_{+}+k_{-}\right)}{dM}\frac{dp}{dM}\Delta M^{2}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{dp}{dt}=-p\frac{d\left(k_{+}-k_{-}\right)}{dM}\Delta M-\frac{dp}{dM}\left(k_{+}-k_{-}\right)\Delta M{\color{green}+\frac{d\left(k_{+}+k_{-}\right)}{dM}\frac{dp}{dM}\Delta M^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+ODE at boundary of grain
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left.\frac{dp}{dt}\right|_{+M_{s}}=-p\left(M_{s}\right)k_{-}\left(M_{s}\right)+\left(p\left(M_{s}\right)-\frac{dp}{dM}\Delta M\right)\left(k_{+}\left(M_{s}\right)-\frac{dk_{+}}{dM}\Delta M\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left.\frac{dp}{dt}\right|_{+M_{s}}=-p\left(M_{s}\right)k_{-}\left(M_{s}\right)+p\left(M_{s}\right)k_{+}\left(M_{s}\right)-p\left(M_{s}\right)\frac{dk_{+}}{dM}\Delta M-\frac{dp}{dM}\Delta Mk_{+}\left(M_{s}\right)+\frac{dp}{dM}\Delta M\frac{dk_{+}}{dM}\Delta M
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left.\frac{dp}{dt}\right|_{+M_{s}}=p\left(M_{s}\right)\left(k_{+}\left(M_{s}\right)-k_{-}\left(M_{s}\right)\right)-p\left(M_{s}\right)\frac{dk_{+}}{dM}\Delta M-\frac{dp}{dM}k_{+}\left(M_{s}\right)\Delta M
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+and 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left.\frac{dp}{dt}\right|_{-M_{s}}=-p\left(-M_{s}\right)k_{+}\left(-M_{s}\right)+\left(p\left(-M_{s}\right)+\frac{dp}{dM}\Delta M\right)\left(k_{-}\left(-M_{s}\right)+\frac{dk_{-}}{dM}\Delta M\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left.\frac{dp}{dt}\right|_{-M_{s}}=-p\left(-M_{s}\right)k_{+}\left(-M_{s}\right)+p\left(-M_{s}\right)k_{-}\left(-M_{s}\right)+p\left(-M_{s}\right)\frac{dk_{-}}{dM}\Delta M+\frac{dp}{dM}\Delta Mk_{-}\left(-M_{s}\right)+\frac{dp}{dM}\Delta M\frac{dk_{-}}{dM}\Delta M
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left.\frac{dp}{dt}\right|_{-M_{s}}=-p\left(-M_{s}\right)\left(k_{+}\left(-M_{s}\right)-k_{-}\left(-M_{s}\right)\right)+p\left(-M_{s}\right)\frac{dk_{-}}{dM}\Delta M+\frac{dp}{dM}k_{-}\left(-M_{s}\right)\Delta M
+\]
+
+\end_inset
+
+ hence
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left.\frac{dp}{dt}\right|_{\pm M_{s}}=\pm p\left(k_{+}-k_{-}\right)\pm\left(-p\frac{dk_{\pm}}{dM}-\frac{dp}{dM}k_{\pm}\right)\Delta M
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+The derivatives of 
+\begin_inset Formula $k_{\pm}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+k_{\pm}\left(x\pm\Delta x\right)\approx k_{\pm}\left(x\right)\pm\frac{dk_{\pm}}{dx}\Delta x
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dk_{\pm}}{dx}=\frac{d}{dx}\frac{1}{\tau_{0}}\exp\left\{ -\frac{\mu_{0}V_{Bark}M_{s}\left(\pm\left(NM-H\right)+H_{K}{\color{brown}+NV_{Bark}M_{s}/2V}\right)}{k_{B}T}\right\} 
+\]
+
+\end_inset
+
+since 
+\begin_inset Formula 
+\[
+\frac{dM}{dx}=\frac{2M_{s}A}{V}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dk_{\pm}}{dx}=\frac{1}{\tau_{0}}\frac{2M_{s}A}{V}\frac{d}{dM}\exp\left\{ -\frac{\mu_{0}V_{Bark}M_{s}\left(\pm\left(NM-H\right)+H_{K}{\color{brown}+NV_{Bark}M_{s}/2V}\right)}{k_{B}T}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dk_{\pm}}{dx}=-\frac{1}{\tau_{0}}\frac{2M_{s}A}{V}\exp\left\{ -\frac{\mu_{0}V_{Bark}M_{s}\left(\pm\left(NM-H\right)+H_{K}{\color{brown}+NV_{Bark}M_{s}/2V}\right)}{k_{B}T}\right\} \frac{d}{dM}\frac{\mu_{0}V_{Bark}M_{s}\left(\pm\left(NM-H\right)+H_{K}{\color{brown}+NV_{Bark}M_{s}/2V}\right)}{k_{B}T}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dk_{\pm}}{dx}=\mp\frac{1}{\tau_{0}}\frac{2M_{s}A}{V}\exp\left\{ -\frac{\mu_{0}V_{Bark}M_{s}\left(\pm\left(NM-H\right)+H_{K}{\color{brown}+NV_{Bark}M_{s}/2V}\right)}{k_{B}T}\right\} \frac{\mu_{0}V_{Bark}M_{s}N}{k_{B}T}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dk_{\pm}}{dx}=\mp\frac{2M_{s}^{2}A\mu_{0}V_{Bark}N}{\tau_{0}k_{B}TV}\exp\left\{ -\frac{\mu_{0}V_{Bark}M_{s}\left(\pm\left(NM-H\right)+H_{K}{\color{brown}+NV_{Bark}M_{s}/2V}\right)}{k_{B}T}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dk_{\pm}}{dx}=\mp\frac{2\mu_{0}NM_{s}^{2}AV_{Bark}}{k_{B}TV}k_{\pm}
+\]
+
+\end_inset
+
+ Hence 
+\begin_inset Formula 
+\[
+\frac{d\left(k_{+}-k_{-}\right)}{dx}=-\frac{2\mu_{0}NM_{s}^{2}AV_{Bark}}{k_{B}TV}\left(k_{+}+k_{-}\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{d\left(k_{+}+k_{-}\right)}{dx}=-\frac{2\mu_{0}NM_{s}^{2}AV_{Bark}}{k_{B}TV}\left(k_{+}-k_{-}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Solve for 
+\begin_inset Formula $p$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dp}{dt}=-p\frac{d\left(k_{+}-k_{-}\right)}{dM}\Delta M-\frac{dp}{dM}\left(k_{+}-k_{-}\right)\Delta M{\color{green}+\frac{d\left(k_{+}+k_{-}\right)}{dM}\frac{dp}{dM}\Delta M^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dp}{dt}=-p\frac{d\left(k_{+}-k_{-}\right)}{dx}\Delta x-\frac{dp}{dx}\left(k_{+}-k_{-}\right)\Delta x{\color{green}+\frac{d\left(k_{+}+k_{-}\right)}{dx}\frac{dp}{dx}\Delta x^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dp}{dt}=p\frac{2\mu_{0}NM_{s}^{2}AV_{Bark}}{k_{B}TV}\left(k_{+}+k_{-}\right)\Delta x-\frac{dp}{dx}\left(k_{+}-k_{-}\right)\Delta x{\color{green}-\frac{2\mu_{0}NM_{s}^{2}AV_{Bark}}{k_{B}TV}\left(k_{+}-k_{-}\right)\frac{dp}{dx}\Delta x^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dp}{dt}=p\frac{2\mu_{0}NM_{s}^{2}V_{Bark}^{2}}{k_{B}TV}\left(k_{+}+k_{-}\right)-\frac{dp}{dx}\left(k_{+}-k_{-}\right)\frac{V_{Bark}}{A}{\color{green}-\frac{2\mu_{0}NM_{s}^{2}V_{Bark}^{3}}{k_{B}TVA}\left(k_{+}-k_{-}\right)\frac{dp}{dx}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p\left(k_{+}+k_{-}\right)=\frac{k_{B}TV}{2\mu_{0}NM_{s}^{2}V_{Bark}^{2}}\frac{dp}{dt}+\frac{k_{B}TV}{2\mu_{0}NM_{s}^{2}AV_{Bark}}\frac{dp}{dx}\left(k_{+}-k_{-}\right){\color{green}-\frac{2\mu_{0}NM_{s}^{2}V_{Bark}^{3}}{k_{B}TVA}\left(k_{+}-k_{-}\right)\frac{dp}{dx}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p\left(k_{+}+k_{-}\right)=\frac{k_{B}TV}{2\mu_{0}NM_{s}^{2}AV_{Bark}}\frac{dp}{dx}\left(k_{+}-k_{-}\right)+\frac{k_{B}TV}{2\mu_{0}NM_{s}^{2}V_{Bark}^{2}}\frac{dp}{dt}{\color{green}-\frac{2\mu_{0}NM_{s}^{2}V_{Bark}^{3}}{k_{B}TVA}\left(k_{+}-k_{-}\right)\frac{dp}{dx}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p=\frac{k_{B}TV}{2\mu_{0}NM_{s}^{2}AV_{Bark}}\frac{dp}{dx}\left(\frac{k_{+}-k_{-}}{k_{+}+k_{-}}\right)+\frac{k_{B}TV}{2\mu_{0}NM_{s}^{2}V_{Bark}^{2}}\frac{dp}{dt}\left(\frac{1}{k_{+}+k_{-}}\right){\color{green}-\frac{2\mu_{0}NM_{s}^{2}V_{Bark}^{3}}{k_{B}TVA}\left(k_{+}-k_{-}\right)\frac{dp}{dx}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p=\frac{k_{B}TV}{2\mu_{0}NM_{s}^{2}V_{Bark}}\left(\frac{1}{A}\frac{dp}{dx}\left(\frac{k_{+}-k_{-}}{k_{+}+k_{-}}\right)\left(1{\color{green}-\frac{2\mu_{0}NM_{s}^{2}V_{Bark}^{2}}{k_{B}TV}}\right)+\frac{1}{V_{Bark}}\frac{dp}{dt}\left(\frac{1}{k_{+}+k_{-}}\right)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Solve for 
+\begin_inset Formula $p$
+\end_inset
+
+ at the ends of the grain
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left.\frac{dp}{dt}\right|_{\pm M_{s}}=\pm p\left(\pm M_{s}\right)\left(k_{+}-k_{-}\right)\pm\left(-p\frac{dk_{\pm}}{dM}-\frac{dp}{dM}k_{\pm}\right)\Delta M
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dp}{dt}=\pm p\left(\pm M_{s}\right)\left(k_{+}-k_{-}\right)\mp p\frac{dk_{\pm}}{dM}\Delta M\mp\frac{dp}{dM}k_{\pm}\Delta M
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dp}{dt}=\pm p\left(\pm M_{s}\right)\left(k_{+}-k_{-}-\frac{dk_{\pm}}{dM}\Delta M\right)\mp\frac{dp}{dM}k_{\pm}\Delta M
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dp}{dt}=\pm p\left(\pm M_{s}\right)\left(k_{+}-k_{-}\pm\frac{\mu_{0}VN\Delta M}{k_{B}T}k_{\pm}\Delta M\right)\mp\frac{dp}{dM}k_{\pm}\Delta M
+\]
+
+\end_inset
+
+ for small 
+\begin_inset Formula $\Delta M$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dp}{dt}=\pm p\left(\pm M_{s}\right)\left(k_{+}-k_{-}\right)\mp\frac{dp}{dM}k_{\pm}\Delta M
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p\left(\pm M_{s}\right)\left(k_{+}-k_{-}\right)=\frac{dp}{dM}k_{\pm}\Delta M\pm\frac{dp}{dt}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p\left(\pm M_{s}\right)=\frac{dp}{dM}\frac{k_{\pm}}{k_{+}-k_{-}}\Delta M\pm\frac{1}{k_{+}-k_{-}}\frac{dp}{dt}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Expressing the rate coefficient in terms of hyperbolic functions
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{k_{+}-k_{-}}{k_{+}+k_{-}}=\frac{\exp\left\{ -\frac{\mu_{0}V_{Bark}M_{s}\left(\left(NM-H\right)+H_{K}{\color{brown}+NV_{Bark}M_{s}/2V}\right)}{k_{B}T}\right\} -\exp\left\{ -\frac{\mu_{0}V_{Bark}M_{s}\left(-\left(NM-H\right)+H_{K}{\color{brown}+NV_{Bark}M_{s}/2V}\right)}{k_{B}T}\right\} }{\exp\left\{ -\frac{\mu_{0}V_{Bark}M_{s}\left(\left(NM-H\right)+H_{K}{\color{brown}+NV_{Bark}M_{s}/2V}\right)}{k_{B}T}\right\} +\exp\left\{ -\frac{\mu_{0}V_{Bark}M_{s}\left(-\left(NM-H\right)+H_{K}{\color{brown}+NV_{Bark}M_{s}/2V}\right)}{k_{B}T}\right\} }
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{k_{+}-k_{-}}{k_{+}+k_{-}}=\frac{\exp\left\{ -\frac{\mu_{0}V_{Bark}M_{s}\left(NM-H\right)}{k_{B}T}\right\} -\exp\left\{ \frac{\mu_{0}V_{Bark}M_{s}\left(NM-H\right)}{k_{B}T}\right\} }{\exp\left\{ -\frac{\mu_{0}V_{Bark}M_{s}\left(NM-H\right)}{k_{B}T}\right\} +\exp\left\{ \frac{\mu_{0}V_{Bark}M_{s}\left(NM-H\right)}{k_{B}T}\right\} }
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{k_{+}-k_{-}}{k_{+}+k_{-}}=\tanh\left\{ -\frac{\mu_{0}V_{Bark}M_{s}\left(NM-H\right)}{k_{B}T}\right\} 
+\]
+
+\end_inset
+
+ and 
+\begin_inset Formula 
+\[
+\frac{1}{k_{+}+k_{-}}=\tau_{0}\frac{1}{\exp\left\{ -\frac{\mu_{0}V_{Bark}M_{s}\left(\left(NM-H\right)+H_{K}{\color{brown}+NV_{Bark}M_{s}/2V}\right)}{k_{B}T}\right\} +\exp\left\{ -\frac{\mu_{0}V_{Bark}M_{s}\left(-\left(NM-H\right)+H_{K}{\color{brown}+NV_{Bark}M_{s}/2V}\right)}{k_{B}T}\right\} }
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{1}{k_{+}+k_{-}}=\tau_{0}\exp\left\{ \frac{\mu_{0}V_{Bark}M_{s}\left(H_{K}{\color{brown}+NV_{Bark}M_{s}/2V}\right)}{k_{B}T}\right\} \frac{1}{\exp\left\{ -\frac{\mu_{0}V_{Bark}M_{s}\left(NM-H\right)}{k_{B}T}\right\} +\exp\left\{ \frac{\mu_{0}V_{Bark}M_{s}\left(NM-H\right)}{k_{B}T}\right\} }
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{1}{k_{+}+k_{-}}=\frac{\tau_{0}}{2}\exp\left\{ \frac{\mu_{0}V_{Bark}M_{s}\left(H_{K}{\color{brown}+NV_{Bark}M_{s}/2V}\right)}{k_{B}T}\right\} {\color{magenta}\text{sech}\left\{ -\frac{\mu_{0}V_{Bark}M_{s}\left(NM-H\right)}{k_{B}T}\right\} }
+\]
+
+\end_inset
+
+ which is for small 
+\begin_inset Formula $V_{Bark}$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{k_{+}-k_{-}}{k_{+}+k_{-}}\approx-\frac{\mu_{0}V_{Bark}M_{s}\left(NM-H\right)}{k_{B}T}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\frac{1}{k_{+}+k_{-}}\approx\frac{\tau_{0}}{2}\exp\left\{ \frac{\mu_{0}V_{Bark}M_{s}\left(H_{K}{\color{brown}+NV_{Bark}M_{s}/2V}\right)}{k_{B}T}\right\} \left[1{\color{magenta}-\frac{\mu_{0}^{2}V_{Bark}^{2}M_{s}^{2}\left(NM-H\right)^{2}}{2k_{B}^{2}T^{2}}}\right]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Inserting rate coefficients in 
+\begin_inset Formula $p$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p=\frac{k_{B}TV}{2\mu_{0}NM_{s}^{2}V_{Bark}}\left(\frac{1}{A}\frac{dp}{dx}\left(\frac{k_{+}-k_{-}}{k_{+}+k_{-}}\right)\left(1{\color{green}-\frac{2\mu_{0}NM_{s}^{2}V_{Bark}^{2}}{k_{B}TV}}\right)+\frac{1}{V_{Bark}}\frac{dp}{dt}\left(\frac{1}{k_{+}+k_{-}}\right)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p=\frac{k_{B}TV}{2\mu_{0}NM_{s}^{2}V_{Bark}}\left(-\frac{1}{A}\frac{dp}{dx}\left(\frac{\mu_{0}V_{Bark}M_{s}\left(NM-H\right)}{k_{B}T}{\color{green}+\frac{2\mu_{0}^{2}NM_{s}^{3}V_{Bark}^{3}\left(NM-H\right)}{k_{B}^{2}T^{2}V}}\right)+\frac{1}{V_{Bark}}\frac{dp}{dt}\left(\frac{\tau_{0}}{2}\exp\left\{ \frac{\mu_{0}V_{Bark}M_{s}\left(H_{K}{\color{brown}+NV_{Bark}M_{s}/2V}\right)}{k_{B}T}\right\} \left[1{\color{magenta}-\frac{\mu_{0}^{2}V_{Bark}^{2}M_{s}^{2}\left(NM-H\right)^{2}}{2k_{B}^{2}T^{2}}}\right]\right)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p=-\left[\frac{V\left(NM-H\right)}{2NM_{s}A}{\color{green}+\frac{\mu_{0}M_{s}V_{Bark}^{2}\left(NM-H\right)}{k_{B}TA}}\right]\frac{dp}{dx}+\frac{\tau_{0}k_{B}TV}{4\mu_{0}NM_{s}^{2}V_{Bark}^{2}}\exp\left\{ \frac{\mu_{0}V_{Bark}M_{s}\left(H_{K}{\color{brown}+NV_{Bark}M_{s}/2V}\right)}{k_{B}T}\right\} \left[1{\color{magenta}-\frac{\mu_{0}^{2}V_{Bark}^{2}M_{s}^{2}\left(NM-H\right)^{2}}{2k_{B}^{2}T^{2}}}\right]\frac{dp}{dt}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p=-\left[\frac{V\left(NM-H\right)\left(1{\color{green}+2\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)}{2NM_{s}A}\right]\frac{dp}{dx}+\frac{\tau_{0}k_{B}TV}{4\mu_{0}NM_{s}^{2}V_{Bark}^{2}}\exp\left\{ \frac{\mu_{0}V_{Bark}M_{s}\left(H_{K}{\color{brown}+NV_{Bark}M_{s}/2V}\right)}{k_{B}T}\right\} \left[1{\color{magenta}-\frac{\mu_{0}^{2}V_{Bark}^{2}M_{s}^{2}\left(NM-H\right)^{2}}{2k_{B}^{2}T^{2}}}\right]\frac{dp}{dt}
+\]
+
+\end_inset
+
+define 
+\begin_inset Formula 
+\[
+\tau=\frac{\tau_{0}k_{B}TV}{4\mu_{0}NM_{s}^{2}V_{Bark}^{2}}\exp\left\{ \frac{\mu_{0}V_{Bark}M_{s}\left(H_{K}{\color{brown}+NV_{Bark}M_{s}/2V}\right)}{k_{B}T}\right\} 
+\]
+
+\end_inset
+
+such that 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p=-\frac{V\left(NM-H\right)\left(1{\color{green}+2\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)}{2NM_{s}A}\frac{dp}{dx}+\frac{1}{\tau}\left[1{\color{magenta}-\frac{\mu_{0}^{2}V_{Bark}^{2}M_{s}^{2}\left(NM-H\right)^{2}}{2k_{B}^{2}T^{2}}}\right]\frac{dp}{dt}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Since 
+\begin_inset Formula $p$
+\end_inset
+
+ is a probability density function 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+1=\int p\,dM
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+1=\int p\,dM=\int\left[-\left(M-\frac{H}{N}\right)\frac{dp}{dM}+\frac{\tau_{0}}{2}\exp\left\{ \frac{E_{P}}{k_{B}T}\right\} \left(\frac{k_{B}T}{\mu_{0}VN\left(\Delta M\right)^{2}}\right)\frac{dp}{dt}\right]dM
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+1=-\int\left(M-\frac{H}{N}\right)\frac{dp}{dM}dM+\frac{\tau_{0}}{2}\exp\left\{ \frac{E_{P}}{k_{B}T}\right\} \frac{d}{dt}\int p\left(\frac{k_{B}T}{\mu_{0}VN\left(\Delta M\right)^{2}}\right)\,dM
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+1=-\int\left(M-\frac{H}{N}\right)\frac{dp}{dM}dM-\frac{\tau_{0}}{2}\exp\left\{ \frac{E_{P}}{k_{B}T}\right\} \frac{k_{B}T}{\mu_{0}VN\left(\Delta M\right)^{2}}\frac{d}{dt}\int p\,dM
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+1=-\int\left(M-\frac{H}{N}\right)\frac{dp}{dM}dM
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+1=-\left[\left(M-\frac{H}{N}\right)p\right]_{-M_{s}}^{+M_{s}}+\int p\,dM
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+0=\left[\left(M-\frac{H}{N}\right)p\right]_{-M_{s}}^{+M_{s}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+0=\left(M_{s}-\frac{H}{N}\right)p\left(M_{s}\right)-\left(-M_{s}-\frac{H}{N}\right)p\left(-M_{s}\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+0=\left(M_{s}-\frac{H}{N}\right)p\left(M_{s}\right)+\left(M_{s}+\frac{H}{N}\right)p\left(-M_{s}\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+0=-\left(M_{s}-\frac{H}{N}\right)\frac{\tau_{0}k_{B}T}{2\mu_{0}V\left(NM-H\right)\Delta M}\exp\left\{ \frac{E_{P}}{k_{B}T}\right\} \frac{dp}{dt}+\left(M_{s}+\frac{H}{N}\right)\frac{\tau_{0}k_{B}T}{2\mu_{0}V\left(NM-H\right)\Delta M}\exp\left\{ \frac{E_{P}}{k_{B}T}\right\} \frac{dp}{dt}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+0=\left(-\left(M_{s}-\frac{H}{N}\right)+\left(M_{s}+\frac{H}{N}\right)\right)\frac{\tau_{0}k_{B}T}{2\mu_{0}V\left(NM-H\right)\Delta M}\exp\left\{ \frac{E_{P}}{k_{B}T}\right\} \frac{dp}{dt}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+0=\frac{H}{N}\frac{\tau_{0}k_{B}T}{\mu_{0}V\left(NM-H\right)\Delta M}\exp\left\{ \frac{E_{P}}{k_{B}T}\right\} \frac{dp}{dt}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+0=\left.\frac{dp}{dt}\right|_{\pm M_{s}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p\left(\pm M_{s}\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Since the total magnetization of the grain is given by 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+M_{tot}=\int pM\,dx
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+M_{tot}=\int\left[-\frac{V\left(NM-H\right)\left(1{\color{green}+2\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)}{2NM_{s}A}\frac{dp}{dx}+\frac{\tau_{0}}{\tau}\frac{dp}{dt}\left[1{\color{magenta}-\frac{\mu_{0}^{2}V_{Bark}^{2}M_{s}^{2}\left(NM-H\right)^{2}}{2k_{B}^{2}T^{2}}}\right]\right]M\,dx
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+M_{tot}=-\int\frac{V\left(NM-H\right)\left(1{\color{green}+2\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)}{2NM_{s}A}\frac{dp}{dx}M\,dx+\int\frac{\tau_{0}}{\tau}\frac{dp}{dt}\left[1{\color{magenta}-\frac{\mu_{0}^{2}V_{Bark}^{2}M_{s}^{2}\left(NM-H\right)^{2}}{2k_{B}^{2}T^{2}}}\right]M\,dx
+\]
+
+\end_inset
+
+since 
+\begin_inset Formula 
+\[
+M=\frac{2M_{s}Ax}{V}\,,
+\]
+
+\end_inset
+
+ and 
+\begin_inset Formula 
+\[
+x=\frac{MV}{2M_{s}A}
+\]
+
+\end_inset
+
+and 
+\begin_inset Formula 
+\[
+dx=\frac{V}{2M_{s}A}\,dM
+\]
+
+\end_inset
+
+and 
+\begin_inset Formula 
+\[
+\frac{dp}{dx}=\frac{dp}{dM}\frac{dM}{dx}=\frac{2M_{s}A}{V}\frac{dp}{dM}
+\]
+
+\end_inset
+
+and 
+\begin_inset Formula 
+\[
+\frac{dp}{dx}dx=\frac{dp}{dM}\frac{dM}{dx}dx=\frac{dp}{dM}dM
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+M_{tot}=-\int\frac{V\left(NM-H\right)\left(1{\color{green}+2\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)}{2NM_{s}A}\frac{dp}{dM}M\,dM+\int\tau\frac{dp}{dt}\left[1{\color{magenta}-\frac{\mu_{0}^{2}V_{Bark}^{2}M_{s}^{2}\left(NM-H\right)^{2}}{2k_{B}^{2}T^{2}}}\right]M\,dx
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+M_{tot}=-\int\frac{V\left(NM-H\right)\left(1{\color{green}+2\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)}{2NM_{s}A}\frac{dp}{dM}M\,dM+\int\tau\frac{dp}{dt}M\,dx{\color{magenta}-\int\tau\frac{dp}{dt}\frac{\mu_{0}^{2}V_{Bark}^{2}M_{s}^{2}\left(NM-H\right)^{2}}{2k_{B}^{2}T^{2}}M\,dx}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+M_{tot}=-\int\frac{V\left(NM-H\right)\left(1{\color{green}+2\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)}{2NM_{s}A}\frac{dp}{dM}M\,dM+\tau\frac{d}{dt}\int pM\,dx{\color{magenta}-\int\tau\frac{dp}{dt}\frac{\mu_{0}^{2}V_{Bark}^{2}M_{s}^{2}\left(NM-H\right)^{2}}{2k_{B}^{2}T^{2}}M\,dx}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+M_{tot}=-\int\frac{V\left(NM-H\right)\left(1{\color{green}+2\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)}{2NM_{s}A}\frac{dp}{dM}M\,dM+\tau\frac{dM_{tot}}{dt}{\color{magenta}-\int\tau\frac{dp}{dt}\frac{\mu_{0}^{2}V_{Bark}^{2}M_{s}^{2}\left(NM-H\right)^{2}}{2k_{B}^{2}T^{2}}M\,dx}
+\]
+
+\end_inset
+
+The first term is 
+\begin_inset Formula 
+\[
+\int\frac{V\left(NM-H\right)\left(1{\color{green}+2\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)}{2NM_{s}A}\frac{dp}{dM}M\,dM
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\frac{V}{2NM_{s}A}\int\left(NM^{2}-HM\right)\left(1{\color{green}+2\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)\frac{dp}{dM}\,dM
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\frac{V}{2NM_{s}A}\left(\left[\left(NM^{2}-HM\right)\left(1{\color{green}+2\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)p\right]_{-M_{s}}^{+M_{s}}-\int\left(2NM-H\right)\left(1{\color{green}+2\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)p\,dM\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=-\frac{V}{2NM_{s}A}\int\left(2NM-H\right)\left(1{\color{green}+2\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)p\,dM
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=-\frac{V}{2NM_{s}A}\left(2N\int Mp\,dM-H\int p\,dM\right)\left(1{\color{green}+2\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=-\frac{V}{2NM_{s}A}\frac{2M_{s}A}{V}\left(2N\int Mp\,dx-H\int p\,dx\right)\left(1{\color{green}+2\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=-\frac{1}{N}\left(2N\int Mp\,dx-H\int p\,dx\right)\left(1{\color{green}+2\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=-\left(2\int Mp\,dx-\frac{H}{N}\int p\,dx\right)\left(1{\color{green}+2\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=-\left(2M_{tot}-\frac{H}{N}\right)\left(1{\color{green}+2\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)
+\]
+
+\end_inset
+
+The third term is 
+\begin_inset Formula 
+\[
+{\color{magenta}\int\tau\frac{dp}{dt}\frac{\mu_{0}^{2}V_{Bark}^{2}M_{s}^{2}\left(NM-H\right)^{2}}{2k_{B}^{2}T^{2}}M\,dx}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\tau\frac{\mu_{0}^{2}V_{Bark}^{2}M_{s}^{2}}{2k_{B}^{2}T^{2}}\int\frac{dp}{dt}\left(NM-H\right)^{2}M\,dx
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\tau\frac{\mu_{0}^{2}V_{Bark}^{2}M_{s}^{2}}{2k_{B}^{2}T^{2}}\int\frac{dp}{dt}\left(N^{2}M^{3}-2NM^{2}H+H^{2}M\right)\,dx
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\tau\frac{\mu_{0}^{2}V_{Bark}^{2}M_{s}^{2}}{2k_{B}^{2}T^{2}}\left[N^{2}\int\frac{dp}{dt}M^{3}\,dx-2NH\int\frac{dp}{dt}M^{2}\,dx+H^{2}\int\frac{dp}{dt}M\,dx\right]
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\tau\frac{\mu_{0}^{2}V_{Bark}^{2}M_{s}^{2}}{2k_{B}^{2}T^{2}}\frac{d}{dt}\left[N^{2}\int pM^{3}\,dx-2NH\int pM^{2}\,dx+H^{2}\int pM\,dx\right]
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+=\tau\frac{\mu_{0}^{2}V_{Bark}^{2}M_{s}^{2}}{2k_{B}^{2}T^{2}}\frac{d}{dt}\left[{\color{red}N^{2}\int pM^{3}\,dx-2NH\text{Var}\left(M_{tot}\right)}+H^{2}M_{tot}\right]
+\]
+
+\end_inset
+
+Neglecting the first two terms, as they do not vary significantly with time
+\begin_inset Formula 
+\[
+={\color{magenta}\tau\frac{\mu_{0}^{2}V_{Bark}^{2}M_{s}^{2}H^{2}}{2k_{B}^{2}T^{2}}\frac{dM_{tot}}{dt}}
+\]
+
+\end_inset
+
+ Hence 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+M_{tot}=\left(2M_{tot}-\frac{H}{N}\right)\left(1{\color{green}+2\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)+\tau\frac{dM_{tot}}{dt}{\color{magenta}-\tau\frac{\mu_{0}^{2}V_{Bark}^{2}M_{s}^{2}H^{2}}{2k_{B}^{2}T^{2}}\frac{dM_{tot}}{dt}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+M_{tot}=\left(2M_{tot}-\frac{H}{N}\right)\left(1{\color{green}+2\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)+\tau\frac{dM_{tot}}{dt}\left(1{\color{magenta}-\frac{\mu_{0}^{2}V_{Bark}^{2}M_{s}^{2}H^{2}}{2k_{B}^{2}T^{2}}}\right)
+\]
+
+\end_inset
+
+Hence define relaxation time to second order accuracy 
+\begin_inset Formula 
+\[
+\tau_{2}=\tau\left(1{\color{magenta}-\frac{\mu_{0}^{2}V_{Bark}^{2}M_{s}^{2}H^{2}}{2k_{B}^{2}T^{2}}}\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\tau_{2}=\tau_{0}\left(\frac{k_{B}TV}{4\mu_{0}NM_{s}^{2}V_{Bark}^{2}}{\color{magenta}-\frac{\mu_{0}VH^{2}}{8Nk_{B}T}}\right)\exp\left\{ \frac{V_{Bark}M_{s}\left(\mu_{0}H_{K}{\color{brown}+N/2}\right)}{k_{B}T}\right\} 
+\]
+
+\end_inset
+
+ Hence 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+M_{tot}=\left(2M_{tot}-\frac{H}{N}\right)\left(1{\color{green}+2\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)+\tau_{2}\frac{dM_{tot}}{dt}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+-M_{tot}+\left(2M_{tot}-\frac{H}{N}\right)\left(1{\color{green}+2\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)=-\tau_{2}\frac{dM_{tot}}{dt}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+-M_{tot}+2M_{tot}\left(1{\color{green}+2\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)-\frac{H}{N}\left(1{\color{green}+2\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)=-\tau_{2}\frac{dM_{tot}}{dt}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+M_{tot}\left(1{\color{green}+4\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)-\frac{H}{N}\left(1{\color{green}+2\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)=-\tau_{2}\frac{dM_{tot}}{dt}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+M_{tot}-\frac{H}{N}\frac{\left(1{\color{green}+2\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)}{\left(1{\color{green}+4\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)}=-\frac{\tau_{2}}{\left(1{\color{green}+4\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)}\frac{dM_{tot}}{dt}
+\]
+
+\end_inset
+
+Define third order relaxation time 
+\begin_inset Formula 
+\[
+\tau_{3}=\frac{\tau_{2}}{\left(1{\color{green}+4\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\tau_{3}=\frac{\tau_{0}}{\left(1{\color{green}+4\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)}\left(\frac{k_{B}TV}{4\mu_{0}NM_{s}^{2}V_{Bark}^{2}}{\color{magenta}-\frac{\mu_{0}VH^{2}}{8Nk_{B}T}}\right)\exp\left\{ \frac{\mu_{0}V_{Bark}M_{s}\left(H_{K}{\color{brown}+NV_{Bark}M_{s}/2V}\right)}{k_{B}T}\right\} 
+\]
+
+\end_inset
+
+Hence 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+M_{tot}-\frac{H}{N}{\color{green}c}=-\tau_{3}\frac{dM_{tot}}{dt}
+\]
+
+\end_inset
+
+ where 
+\begin_inset Formula 
+\[
+{\color{green}c}=\frac{\left(1{\color{green}+2\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)}{\left(1{\color{green}+4\mu_{0}NM_{s}^{2}V_{Bark}^{2}/k_{B}TV}\right)}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+{\color{green}c}=\frac{\left(k_{B}TV{\color{green}+2\mu_{0}NM_{s}^{2}V_{Bark}^{2}}\right)}{\left(k_{B}TV{\color{green}+4\mu_{0}NM_{s}^{2}V_{Bark}^{2}}\right)}
+\]
+
+\end_inset
+
+The solution is
+\begin_inset Formula 
+\[
+M=\left(M_{0}-\frac{H}{N}{\color{green}+2M_{s}V_{Bark}}\right)\exp\left\{ -\frac{t}{\tau}\right\} +\frac{H}{N}{\color{green}-2M_{s}V_{Bark}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+M=M_{0}\exp\left\{ -\frac{t}{\tau}\right\} +\left(\frac{H}{N}{\color{green}-2M_{s}V_{Bark}}\right)\left(1-\exp\left\{ -\frac{t}{\tau}\right\} \right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
